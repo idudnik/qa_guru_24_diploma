@@ -9,12 +9,27 @@ from selene import browser
 from utils import attach
 
 
+#
+# @pytest.fixture(scope='session', autouse=True)
+# def browser_open_with_selene():
+#     driver_options = webdriver.ChromeOptions()
+#     driver_options.page_load_strategy = 'eager'
+#
+#     browser.config.driver_options = driver_options
+#     browser.config.window_width = 1900
+#     browser.config.window_height = 950
+#     browser.open("https://vtb.ru/")
+#
+#     yield "Google Chrome"
+#     browser.quit()
+
+
 @pytest.fixture(scope='session', autouse=True)
 def load_env():
     load_dotenv()
 
 
-@pytest.fixture(scope='function', autouse=True)
+@pytest.fixture(scope='session', autouse=True)
 def browser_management():
     options = Options()
     selenoid_capabilities = {
@@ -35,6 +50,8 @@ def browser_management():
         options=options)
 
     browser.config.driver = driver
+    browser.config.window_width = 1900
+    browser.config.window_height = 950
     browser.config.base_url = 'https://vtb.ru/'
 
     yield
@@ -44,4 +61,3 @@ def browser_management():
     attach.add_logs(browser)
     attach.add_video(browser)
     browser.quit()
-
