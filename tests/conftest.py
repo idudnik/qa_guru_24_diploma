@@ -24,14 +24,18 @@ from utils import attach
 #     browser.quit()
 
 
-@pytest.fixture(scope='session', autouse=True)
+@pytest.fixture(scope='function', autouse=True)
 def load_env():
     load_dotenv()
 
 
-@pytest.fixture(scope='session', autouse=True)
+@pytest.fixture(scope='function', autouse=True)
 def browser_management():
     options = Options()
+    options.add_argument("--disable-gpu")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--incognito")
     selenoid_capabilities = {
         "browserName": "chrome",
         "browserVersion": "100.0",
