@@ -1,7 +1,7 @@
 # Проект по тестированию сайта банка "ВТБ"
 > <a target="_blank" href="https://vtb.ru/">VTB bank</a>
 
-![main page screenshot](qa_guru_15-master/pictures/main_page.png)
+![main page](pictures/main_page.png)
 
 ----
 
@@ -25,7 +25,7 @@
 
 ### Используемый стэк
 
-<img title="Python" src="qa_guru_15-master/pictures/icons/python-original.svg" height="40" width="40"/> <img title="Pytest" src="qa_guru_15-master/pictures/icons/pytest-original.svg" height="40" width="40"/><img title="Allure Report" src="qa_guru_15-master/pictures/icons/Allure_Report.png" height="40" width="40"/> <img title="Allure TestOps" src="qa_guru_15-master/pictures/icons/AllureTestOps.png" height="40" width="40"/> <img title="GitHub" src="qa_guru_15-master/pictures/icons/github-original.svg" height="40" width="40"/> <img title="Selenoid" src="qa_guru_15-master/pictures/icons/selenoid.png" height="40" width="40"/> <img title="Selenium" src="qa_guru_15-master/pictures/icons/selenium-original.svg" height="40" width="40"/> <img title="Selene" src="qa_guru_15-master/pictures/icons/selene.png" height="40" width="40"/> <img title="Pycharm" src="qa_guru_15-master/pictures/icons/pycharm.png" height="40" width="40"/> <img title="Telegram" src="qa_guru_15-master/pictures/icons/tg.png" height="40" width="40"/> <img title="Jenkins" src="qa_guru_python_8_15/pictures/icons/jenkins-original.svg" height="40" width="40"/>
+<img title="Python" src="pictures/icons/python-original.svg" height="40" width="40"/> <img title="Pytest" src="qa_guru_15-master/pictures/icons/pytest-original.svg" height="40" width="40"/><img title="Allure Report" src="qa_guru_15-master/pictures/icons/Allure_Report.png" height="40" width="40"/> <img title="Allure TestOps" src="qa_guru_15-master/pictures/icons/AllureTestOps.png" height="40" width="40"/> <img title="GitHub" src="qa_guru_15-master/pictures/icons/github-original.svg" height="40" width="40"/> <img title="Selenoid" src="qa_guru_15-master/pictures/icons/selenoid.png" height="40" width="40"/> <img title="Selenium" src="qa_guru_15-master/pictures/icons/selenium-original.svg" height="40" width="40"/> <img title="Selene" src="qa_guru_15-master/pictures/icons/selene.png" height="40" width="40"/> <img title="Pycharm" src="qa_guru_15-master/pictures/icons/pycharm.png" height="40" width="40"/> <img title="Telegram" src="qa_guru_15-master/pictures/icons/tg.png" height="40" width="40"/> <img title="Jenkins" src="qa_guru_python_8_15/pictures/icons/jenkins-original.svg" height="40" width="40"/>
 
 ----
 
