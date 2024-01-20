@@ -11,3 +11,4 @@ def test_open_credit_company_page():
     credit_company_page.credit_company_page_open()
 
     # THEN
+    credit_company_page.check_text_is_display()

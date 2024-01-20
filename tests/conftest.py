@@ -9,21 +9,6 @@ from selene import browser
 from utils import attach
 
 
-#
-# @pytest.fixture(scope='session', autouse=True)
-# def browser_open_with_selene():
-#     driver_options = webdriver.ChromeOptions()
-#     driver_options.page_load_strategy = 'eager'
-#
-#     browser.config.driver_options = driver_options
-#     browser.config.window_width = 1900
-#     browser.config.window_height = 950
-#     browser.open("https://vtb.ru/")
-#
-#     yield "Google Chrome"
-#     browser.quit()
-
-
 @pytest.fixture(scope='function', autouse=True)
 def load_env():
     load_dotenv()

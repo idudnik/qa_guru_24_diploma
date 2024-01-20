@@ -11,11 +11,10 @@ class SelfEmployedPage:
     def self_employed_page_open(self):
         self.self_employed_page.element_by(have.text('Самозанятым')).click()
         self.go_to_the_section.element_by(have.text('Перейти в раздел')).click()
+
+
+    def check_text_is_display(self):
         with allure.step('Проверить, что текст "Кому подойдет самозанятость"- отображается'):
             self.check_the_text.should(have.exact_text('Кому подойдет самозанятость'))
 
-
 self_employed_page = SelfEmployedPage()
-
-
-

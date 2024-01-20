@@ -1,4 +1,3 @@
-
 from pages.main_page import main_page
 
 from pages.private_page import private_page
@@ -13,5 +12,4 @@ def test_open_private_page():
 
     # THEN
 
-
-
+    private_page.check_text_is_display()

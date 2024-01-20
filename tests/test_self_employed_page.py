@@ -11,3 +11,4 @@ def test_open_self_employed_page():
     self_employed_page.self_employed_page_open()
 
     # THEN
+    self_employed_page.check_text_is_display()

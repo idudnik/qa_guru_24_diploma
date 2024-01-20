@@ -11,4 +11,4 @@ def test_open_bank_info_page():
     bank_info_page.bank_info_page_open()
 
     # THEN
-
+    bank_info_page.check_text_is_display()

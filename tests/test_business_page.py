@@ -11,3 +11,4 @@ def test_open_business_page():
     business_page.business_page_open()
 
     # THEN
+    business_page.check_text_is_display()
