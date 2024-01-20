@@ -25,7 +25,8 @@
 
 ### Используемый стэк
 
-<img title="Python" src="pictures/icons/python-original.svg" height="40" width="40"/> <img title="Pytest" src="qa_guru_15-master/pictures/icons/pytest-original.svg" height="40" width="40"/><img title="Allure Report" src="qa_guru_15-master/pictures/icons/Allure_Report.png" height="40" width="40"/> <img title="Allure TestOps" src="qa_guru_15-master/pictures/icons/AllureTestOps.png" height="40" width="40"/> <img title="GitHub" src="qa_guru_15-master/pictures/icons/github-original.svg" height="40" width="40"/> <img title="Selenoid" src="qa_guru_15-master/pictures/icons/selenoid.png" height="40" width="40"/> <img title="Selenium" src="qa_guru_15-master/pictures/icons/selenium-original.svg" height="40" width="40"/> <img title="Selene" src="qa_guru_15-master/pictures/icons/selene.png" height="40" width="40"/> <img title="Pycharm" src="qa_guru_15-master/pictures/icons/pycharm.png" height="40" width="40"/> <img title="Telegram" src="qa_guru_15-master/pictures/icons/tg.png" height="40" width="40"/> <img title="Jenkins" src="qa_guru_python_8_15/pictures/icons/jenkins-original.svg" height="40" width="40"/>
+<img title="Python" src="pictures/icons/python-original.svg" height="40" width="40"/> <img title="Pytest" src="pictures/icons/pytest-original.svg" height="40" width="40"/><img title="Allure Report" src="pictures/icons/Allure_Report.png" height="40" width="40"/> <img title="Allure TestOps" src="pictures/icons/AllureTestOps.png" height="40" width="40"/> <img title="GitHub" src="pictures/icons/github-original.svg" height="40" width="40"/> <img title="Selenoid" 
+src="pictures/icons/selenoid.png" height="40" width="40"/> <img title="Selenium" src="pictures/icons/selenium-original.svg" height="40" width="40"/> <img title="Selene" src="pictures/icons/selene.png" height="40" width="40"/> <img title="Pycharm" src="pictures/icons/pycharm.png" height="40" width="40"/> <img title="Telegram" src="pictures/icons/tg.png" height="40" width="40"/> <img title="Jenkins" src="pictures/icons/jenkins-original.svg" height="40" width="40"/>
 
 ----
 
@@ -48,7 +49,7 @@ allure serve build/allure-results
 ----
 
 ### Проект в Jenkins
-> <a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_15_bank_page_opening/">Ссылка</a>
+> <a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_15_bank_page_opening/">Jenkins_build</a>
 
 #### Параметры сборки
 
@@ -60,58 +61,57 @@ COMMENT = 'some comment' # Комментарий
 #### Запуск автотестов в Jenkins
 1. Открыть <a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_15_bank_page_opening/">проект</a>
 
-![jenkins project main page](qa_guru_15-master/pictures/jenkins_project_main_page.png)
+![jenkins project main page](pictures/jenkins_project_main_page.png)
 
 2. Нажать "Build with Parameters"
 3. В поле "BROWSER_VERSION" ввести: 100
 4. Из списка "ENVIRONMENT" выбрать: PROD
-5. В поле "COMMENT" ввести комментарий
-6. Нажать "Build"
+5. Нажать "Build"
 
-![jenkins_build](qa_guru_15-master/pictures/jenkins_build.png)
+![jenkins_build](pictures/jenkins_build.png)
 
 ----
 
 ### Allure отчет
 #### Общие результаты 
-![allure_report_overview](qa_guru_15-master/pictures/allure_report_overview.png)
+![allure_report_overview](pictures/allure_report_overview.png)
 
 #### Результаты прохождения теста
-![allure_reports_behaviors](qa_guru_15-master/pictures/allure_reports_behaviors.png)
+![allure_reports_behaviors](pictures/allure_reports_behaviors.png)
 
-#### Графики
+#### Диаграммы
 
-![allure_reports_graphs](qa_guru_15-master/pictures/alluere_reports_graphs_1.png)
-![allure_reports_graphs](qa_guru_15-master/pictures/alluere_reports_graphs_2.png)
+![allure_reports_graphs](pictures/alluere_reports_graphs_1.png)
+
 
 ----
 
 ### Интеграция с Allure TestOps
-> <a target="_blank" href="https://allure.autotests.cloud/project/3782/dashboards">Ссылка на проект</a>
+> <a target="_blank" href="https://allure.autotests.cloud/project/3982/dashboards">Ссылка на проект</a>
 
-#### Дашборд с общими показателями тестовых прогонов
+#### Общий Дашборд
 
-![allure_test_ops_dashboards](qa_guru_15-master/pictures/allure_testops_dashboards.png)
+![allure_test_ops_dashboards](pictures/allure_testops_dashboards.png)
 
-#### История запуска тестовых наборов
+#### История запуска тестов
 
-![allure_testops_launches](qa_guru_15-master/pictures/allure_testops_launches.png)
+![allure_testops_launches](pictures/allure_testops_launches.png)
 
 #### Тест кейсы
 
-![allure_testops_suites](qa_guru_15-master/pictures/allure_testops_suites.png)
+![allure_testops_suites](pictures/allure_testops_suites.png)
 
 
 
 ----
 
 ### Оповещения в Telegram
-![telegram_allert](qa_guru_15-master/pictures/telegram_allert.png)
+![telegram_allert](pictures/telegram_allert.png)
 
 ----
 
-### Видео прохождения автотеста
-![autotest_gif](qa_guru_15-master/pictures/autotest.gif)
+### Видео прохождения одного из автотеста
+![autotest_gif](pictures/autotest.gif)
 
 ----
 
