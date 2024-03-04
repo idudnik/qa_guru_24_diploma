@@ -9,6 +9,12 @@ from selene import browser
 from utils import attach
 
 
+# @pytest.fixture(scope='function')
+# def api_url():
+#     url = "https://siteapi.vtb.ru"
+#     return url
+
+
 @pytest.fixture(scope='function', autouse=True)
 def load_env():
     load_dotenv()

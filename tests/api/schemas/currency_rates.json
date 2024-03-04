@@ -1,0 +1,164 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "category": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "target": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "description",
+        "target"
+      ]
+    },
+    "rates": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "currency1": {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "rusName": {
+                  "type": "string"
+                },
+                "symbol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "code",
+                "rusName",
+                "symbol"
+              ]
+            },
+            "currency2": {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "rusName": {
+                  "type": "string"
+                },
+                "symbol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "code",
+                "rusName",
+                "symbol"
+              ]
+            },
+            "dateFrom": {
+              "type": "string"
+            },
+            "scale": {
+              "type": "integer"
+            },
+            "bid": {
+              "type": "number"
+            },
+            "offer": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "currency1",
+            "currency2",
+            "dateFrom",
+            "scale",
+            "bid",
+            "offer"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "currency1": {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "rusName": {
+                  "type": "string"
+                },
+                "symbol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "code",
+                "rusName",
+                "symbol"
+              ]
+            },
+            "currency2": {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "rusName": {
+                  "type": "string"
+                },
+                "symbol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "code",
+                "rusName",
+                "symbol"
+              ]
+            },
+            "dateFrom": {
+              "type": "string"
+            },
+            "scale": {
+              "type": "integer"
+            },
+            "bid": {
+              "type": "number"
+            },
+            "offer": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "currency1",
+            "currency2",
+            "dateFrom",
+            "scale",
+            "bid",
+            "offer"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "category",
+    "rates"
+  ]
+}
