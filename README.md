@@ -13,7 +13,7 @@
 * Интеграция с Allure TestOps
 * Запуск автотестов в Selenoid
 
-### Список проверок, реализованных в автотестах
+### Список проверок, реализованных в автотестах (web)
 
 - [x] Проверить, что текст "Новости"- отображается в разделе "Акционерам"
 - [x] Проверить, что текст "Признаны лучшими в разных сферах"- отображается в разделе "О банке"
@@ -22,7 +22,12 @@
 - [x] Проверить, что текст "Предложения банка:"- отображается в разделе "Частным лицам"
 - [x] Проверить, что текст "Кому подойдет самозанятость"- отображается в разделе "Самозанятым"
 ----
-
+### Список проверок, реализованных в автотестах (api)
+- [x] Проверить, что рубли конвертируется в евро
+- [x] Проверить, что рубли конвертируется в доллары
+- [x] Проверить, что открывается страница курсов валют
+- [x] Проверить, что открывается страница территориального расположения
+- [x] Проверить, что открывается страница выдачи персонального кредита
 ### Используемый стэк
 
 <img title="Python" src="pictures/icons/python-original.svg" height="40" width="40"/> <img title="Pytest" src="pictures/icons/pytest-original.svg" height="40" width="40"/><img title="Allure Report" src="pictures/icons/Allure_Report.png" height="40" width="40"/> <img title="Allure TestOps" src="pictures/icons/AllureTestOps.png" height="40" width="40"/> <img title="GitHub" src="pictures/icons/github-original.svg" height="40" width="40"/> <img title="Selenoid" 
@@ -49,7 +54,7 @@ allure serve build/allure-results
 ----
 
 ### Проект в Jenkins
-> <a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_15_bank_page_opening/">Jenkins_build</a>
+> <a target="_blank" href="https://jenkins.autotests.cloud/job/diploma_24//">Jenkins_build</a>
 
 #### Параметры сборки
 
@@ -59,7 +64,7 @@ ENVIRONMENT = ['PREPROD', 'PROD'] # Окружение
 COMMENT = 'some comment' # Комментарий
 ```
 #### Запуск автотестов в Jenkins
-1. Открыть <a target="_blank" href="https://jenkins.autotests.cloud/job/qa_guru_15_bank_page_opening/">проект</a>
+1. Открыть <a target="_blank" href="https://jenkins.autotests.cloud/job/diploma_24/">проект</a>
 
 ![jenkins project main page](pictures/jenkins_project_main_page.png)
 
@@ -87,7 +92,7 @@ COMMENT = 'some comment' # Комментарий
 ----
 
 ### Интеграция с Allure TestOps
-> <a target="_blank" href="https://allure.autotests.cloud/project/3982/dashboards">Ссылка на проект</a>
+> <a target="_blank" href="https://allure.autotests.cloud/project/4117/dashboards">Ссылка на проект</a>
 
 #### Общий Дашборд
 
