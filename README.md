@@ -7,7 +7,7 @@
 
 ### Особенности проекта
 
-* Оповещения о прохождении тестов в Telegram
+* UI и API тесты
 * Сборка проекта в Jenkins
 * Отчеты Allure Report
 * Интеграция с Allure TestOps
@@ -23,15 +23,15 @@
 - [x] Проверить, что текст "Кому подойдет самозанятость"- отображается в разделе "Самозанятым"
 ----
 ### Список проверок, реализованных в автотестах (api)
-- [x] Проверить, что рубли конвертируется в евро
-- [x] Проверить, что рубли конвертируется в доллары
+- [x] Проверить, что рубли конвертируются в евро
+- [x] Проверить, что рубли конвертируются в доллары
 - [x] Проверить, что открывается страница курсов валют
 - [x] Проверить, что открывается страница территориального расположения
 - [x] Проверить, что открывается страница выдачи персонального кредита
 ### Используемый стэк
 
 <img title="Python" src="pictures/icons/python-original.svg" height="40" width="40"/> <img title="Pytest" src="pictures/icons/pytest-original.svg" height="40" width="40"/><img title="Allure Report" src="pictures/icons/Allure_Report.png" height="40" width="40"/> <img title="Allure TestOps" src="pictures/icons/AllureTestOps.png" height="40" width="40"/> <img title="GitHub" src="pictures/icons/github-original.svg" height="40" width="40"/> <img title="Selenoid" 
-src="pictures/icons/selenoid.png" height="40" width="40"/> <img title="Selenium" src="pictures/icons/selenium-original.svg" height="40" width="40"/> <img title="Selene" src="pictures/icons/selene.png" height="40" width="40"/> <img title="Pycharm" src="pictures/icons/pycharm.png" height="40" width="40"/> <img title="Telegram" src="pictures/icons/tg.png" height="40" width="40"/> <img title="Jenkins" src="pictures/icons/jenkins-original.svg" height="40" width="40"/>
+src="pictures/icons/selenoid.png" height="40" width="40"/> <img title="Selenium" src="pictures/icons/selenium-original.svg" height="40" width="40"/> <img title="Selene" src="pictures/icons/selene.png" height="40" width="40"/> <img title="Pycharm" src="pictures/icons/pycharm.png" height="40" width="40"/> <img title="Jenkins" src="pictures/icons/jenkins-original.svg" height="40" width="40"/>
 
 ----
 
@@ -96,11 +96,11 @@ COMMENT = 'some comment' # Комментарий
 
 #### Общий Дашборд
 
-![allure_test_ops_dashboards](pictures/allure_testops_dashboards.png)
+![allure_test_ops_dashboards](pictures/allure_testops_launches.png)
 
 #### История запуска тестов
 
-![allure_testops_launches](pictures/allure_testops_launches.png)
+![allure_testops_launches](pictures/allure_testops_dashboards.png)
 
 #### Тест кейсы
 
@@ -110,10 +110,7 @@ COMMENT = 'some comment' # Комментарий
 
 ----
 
-### Оповещения в Telegram
-![telegram_allert](pictures/telegram_allert.png)
 
-----
 
 ### Видео прохождения одного из автотеста
 ![autotest_gif](pictures/autotest.gif)
